@@ -1,0 +1,47 @@
+$date
+	Sat Oct 29 22:15:42 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module main_tb $end
+$var wire 4 ! saida [3:0] $end
+$var reg 1 " controle $end
+$var reg 4 # operando [3:0] $end
+$var reg 3 $ rotacoes [2:0] $end
+$scope module main1 $end
+$var wire 1 " controle $end
+$var wire 4 % operando [3:0] $end
+$var wire 3 & rotacoes [2:0] $end
+$var wire 4 ' saida [3:0] $end
+$var reg 4 ( s3 [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1001 (
+b1001 '
+b10 &
+b110 %
+b10 $
+b110 #
+0"
+b1001 !
+$end
+#100
+b111 !
+b111 '
+b111 (
+b11 $
+b11 &
+1"
+b1110 #
+b1110 %
+#200
